@@ -1,7 +1,7 @@
-const UNSPLASH_API_KEY = "PASTE_YOUR_UNSPLASH_API_KEY_HERE"; // Store Unsplash API key in a variable
+const UNSPLASH_API_KEY = "s0v3pkIrbmJp47Bd8kAXZSEv_tuMjbm0FiPd_UwgMyY"; // Store Unsplash API key in a variable
 
 let weather = {
-    apiKey: "PASTE_YOUR_OPENWEATHER_API_KEY_HERE",
+    apiKey: "346e8de7867506b85c62aeb58534f567",
     fetchWeather: function (city) {
         fetch(
             "https://api.openweathermap.org/data/2.5/weather?q=" +
